@@ -3,7 +3,7 @@
 def sum(a,b):
     a = float(input("enter a float number"))
     b = float(input("enter a float number"))
-    sum(a,b)
+    sum1 = sum(a,b)
     return
     #inputs
     # a : float 
@@ -13,7 +13,7 @@ def sum(a,b):
 
 
 
-if sum() == "__main__":
+if __name__ == "__main__":
     print("This is my program")
     #this should return a value of 7
     x = sum(3,4)
